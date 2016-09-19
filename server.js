@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 
 var pages = {
-    pageOne: {
+    'page-One': {
         title:'Page One',
         date: '16 Sept 2016',
         heading: 'Page One',
@@ -16,7 +16,7 @@ var pages = {
         </p>
         `
     },
-    pageTwo:{
+    'page-Two':{
         title:'Page Two',
         date: '17 Sept 2016',
         heading: 'Page Two',
@@ -26,7 +26,7 @@ var pages = {
         </p>
         `
     },
-    pageThree:{
+    'page-Three':{
         title:'Page Three',
         date: '16 Sept 2016',
         heading: 'Page Three',
