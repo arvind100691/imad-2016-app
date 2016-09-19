@@ -32,7 +32,7 @@ var pages = {
         heading: 'Page Three',
         content:`
         <p>
-            Digital pins 6—11 are not shown on this diagram because they are used to connect flash memory chip on most modules. Trying to use these pins as IOs will likely cause the program to crash.
+            Digital pins 6(11) are not shown on this diagram because they are used to connect flash memory chip on most modules. Trying to use these pins as IOs will likely cause the program to crash.
         </p>
         `    
     }
@@ -43,7 +43,7 @@ function createTemplate(data)   {
     var heading = data.heading;
     var date = data.date;
     var content = data.content;
-    var htmlTemlate = `
+    var htmlTemplate = `
     <html>
     <head>
         <title>${title}</title>
