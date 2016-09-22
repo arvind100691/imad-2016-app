@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var pages = {
     'page-One': {
-        title:'Page One',
+        title:'Page first',
         date: '16 Sept 2016',
         heading: 'Page One',
         content:`
